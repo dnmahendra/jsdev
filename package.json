@@ -1,0 +1,22 @@
+{
+  "name": "jsdev",
+  "version": "1.0.0",
+  "description": "javascript development environment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node server.js"
+  },
+  "author": "mahendra",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.1.2",
+    "@babel/preset-env": "7.1.0",
+    "@babel/register": "7.0.0"
+  },
+  "dependencies": {
+    "@babel/cli": "7.1.2",
+    "@babel/node": "7.0.0",
+    "express": "4.16.3"
+  }
+}
